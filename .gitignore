@@ -1,0 +1,4 @@
+/weather_server/node_modules/
+/weather_ui/node_modules/
+
+/weather_server/logs/
