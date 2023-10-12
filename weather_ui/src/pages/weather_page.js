@@ -61,7 +61,7 @@ const WeatherPage = () => {
     };
 
     const fetchWeatherData = async (city) => {
-        const apiKey = '69db99dbc20ea9c7211d8ccb93327ab2';
+        const apiKey = '69db99dbc20ea9c72fsedsgfhjf';
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
         return axios.get(url).catch((error) => {
             throw error;
